@@ -22,7 +22,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14' # ou a versão que você precisa
+          node-version: '16' # ou a versão que você precisa
 
       - name: Install npm dependencies
         run: npm install # ou 'yarn install' se você estiver usando yarn
