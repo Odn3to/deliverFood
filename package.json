@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "com.odn3to.deliverFood",
+  "name": "deliverfood",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start --dev-client",
@@ -9,7 +9,6 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@react-native-google-signin/google-signin": "^10.1.0",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.16",
     "axios": "^1.6.0",
