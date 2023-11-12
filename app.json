@@ -1,11 +1,15 @@
 {
   "expo": {
-    "name": "deliverFood",
+    "name": "Deliver Food",
     "slug": "deliverFood",
+    "scheme": "deliverFood",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "updates": {
+      "useClassicUpdates": true
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -15,16 +19,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.odn3to.deliverFood"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.odn3to.deliverFood"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d337f1bf-6797-4b14-935c-108d0e97cd8e"
+      }
     }
   }
 }
